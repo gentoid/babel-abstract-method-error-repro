@@ -1,0 +1,15 @@
+{
+  "name": "babel-abstract-method-error-repro",
+  "version": "1.0.0",
+  "author": "Viktor Lazarev <taurus101v@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "build": "babel src --out-dir lib --extensions \".ts,.tsx\""
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.12.13",
+    "@babel/core": "^7.12.13",
+    "@babel/preset-typescript": "^7.12.13",
+    "typescript": "^4.1.3"
+  }
+}
