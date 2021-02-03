@@ -4,6 +4,7 @@
   "author": "Viktor Lazarev <taurus101v@gmail.com>",
   "license": "MIT",
   "scripts": {
+    "type-check": "tsc --noEmit ./src/index.ts",
     "build": "babel src --out-dir lib --extensions \".ts,.tsx\""
   },
   "devDependencies": {
